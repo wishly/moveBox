@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#game {
+	position: relative;
+	margin: 20px auto;
+}
+.pos1 {
+	width: 50px;
+	height: 50px;
+	background: url(../img/bg_tree.png) no-repeat;
+	float: left;
+}
+.pos2 {
+	width: 50px;
+	height: 50px;
+	background: url(../img/wall.jpg) no-repeat;
+	float: left;
+}
+.pos3 {
+	width: 50px;
+	height: 50px;
+	background: url(../img/allow_bg.jpg) no-repeat;
+	float: left;
+}
+.pos4 {
+	width: 50px;
+	height: 50px;
+	background: url(../img/target.jpg) no-repeat;
+	float: left;
+}
+.box {
+	width: 50px;
+	height: 50px;
+	background: url(../img/box.jpg) no-repeat;
+	float: left;
+	position: absolute;
+}
+.person {
+	width: 50px;
+	height: 50px;
+	background: url(../img/person.png) no-repeat;
+	float: left;
+	position: absolute;
+}
